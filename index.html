@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexHomework</title>
+    <style>
+
+      /* first row content: it includes 4 box in row */
+      .firstRowContainer {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: flex-start;
+        border: 2px solid blue;
+        /* width: 1900px; */
+        height: 500px;
+        padding: 10px;
+        padding-bottom: 0px;
+      }
+/* 
+      border: 5px solid lightgrey;
+        background-color: lightblue;
+        padding: 20px;
+        display: flex;
+        height: 600px; 
+        justify-content: flex-end;
+        justify-content: space-around;
+        align-items: flex-start; 
+
+        /*justify content is for MAIN AXIS* left to right/*/
+       
+        /* justify-content: space-evenly;
+         */
+
+        /*align-item is for Cross AXIS* top to bottom/*/
+        
+      .boxOne {
+        width: 420px;
+        height: 490px;
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+      }
+      .boxTwo {
+        width: 420px;
+        height: 490px;
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+      
+      }
+      .boxThree {
+        width: 420px;
+        height: 490px;
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+      
+      }
+      .boxFour {
+        width: 420px;
+        height: 490px;
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+      }
+
+
+
+      .h3Parent {
+        display: flex;
+        justify-content: flex-start;
+      }
+      h3 {
+        font-size: 30px;
+      }
+
+      .imageParent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #img1 {
+        width: 110px;
+        height: 150px;
+      }
+
+
+      .h4Parent {
+        border: 2px solid red;
+        height: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      h4 {
+        font-size: 19px;
+      }
+
+
+      .priceInformationParent {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-bottom: 10px;
+      }
+      .priceParent {
+        width: 70px;
+        height: 35px;
+        border: 1px solid orange;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: row;
+        font-weight: bold;
+      }
+
+      .listParent {
+        width: 100px;
+        height: 35px;
+        border: 1px solid orange;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: rgb(91, 88, 88);
+        font-weight: bold;
+      }
+
+      .listWord {
+        font-size: large;
+        align-self: center;
+      }
+
+      #fourty {
+        font-size: large;
+        align-self: center;
+        text-decoration-line: line-through;
+      }
+
+      #moenyMark {
+        align-self: flex-start;
+        font-size: 20px;
+      }
+      #double0 {
+        align-self: flex-start;
+        font-size: 20px;
+      }
+      #thirty {
+        font-size: 25px;
+        align-self: flex-start;
+      }
+
+
+
+      /* four small box inside the first big red box */
+      .fourSmallBoxParent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .smallestBox {
+        border: 1px solid green;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #greenFirstSmallbox {
+        border: 4px solid rgb(5, 104, 91);
+        border-radius: 5%;
+      }
+
+      /* imgs insde of smallest boxes */
+      .imgInsideOfSmallestBox {
+        width: 60px;
+        height: 60px;
+      }
+
+      /* secondredboxinfirstrow */
+      /* the title is same as h3, therefore no need wirte here agian. */
+
+      .imgInSecondBox {
+        width: 300px;
+        height: 270px;
+        align-self: flex-end;
+      }
+
+      .secondImgParent {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .buttonParent {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        border: 2px solid black;
+        width: 250px;
+        height: 80px;
+      }
+      #buttonID {
+        align-self: center;
+        color: rgb(2, 133, 185);
+        font-size: larger;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        border: 0px white;
+        background-color: white;
+      }
+      #fixButtonID{
+        padding: 10px;
+        margin-top: 12px;
+      }
+      #imgInSecondBoxchangeBigger{
+        width: 300px;
+        height: 320px;
+      }
+/* 
+      The third red box and 4th red box are same as first and second, so no need rewrite. */
+
+
+/*secondRowContent*/
+
+      .secondRowContainer {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        border: 2px solid blue;
+        width: 1900px;
+        height: 360px;
+        padding: 10px;
+ 
+      }
+      
+      /* leftBlueBox */
+      .box1 {
+        width: 1466px;
+        height: 334px;
+        border: 1px solid purple;
+        margin: 10px;
+        padding-left: 20px;
+       
+      }
+
+      /* rightBlueBox */
+      .box2 {
+        width: 400px;
+        height: 334px;
+        border: 1px solid purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+       
+      }
+
+      /* same as h3 */
+      #bestSellers{
+        margin-bottom: 0px;
+
+      }
+
+      /* five images */
+      .fiveSmallPicParent{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+      }
+      .fiveSmallPic{
+        width: 290px;
+        height: 245px;
+        padding: 0px;
+      }
+
+      /* rightImagewithBluebox */
+      .lastImage{
+        border: 2px solid blue;
+        width: 325px;
+        height: 210px;
+        align-self: center;
+      
+      }
+      #withoutMargin{
+        margin: 0px;
+
+      }
+      .anotherPrice{
+      align-self: left;
+      margin: 3px;
+      
+     }
+
+     /* about star */
+
+     .starParent{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin: 0px;
+     }
+     
+
+     .five-pointed-star {
+ --star-color:orange;
+ margin:1em auto;
+ font-size:0.6em;
+ position: relative;
+ /* display: block; */
+ width: 0px;
+ height: 0px;
+ border-right: 1em solid transparent;
+ border-bottom: 0.7em solid var(--star-color);
+ border-left: 1em solid transparent;
+ transform: rotate(35deg);
+ align-self: self-end;
+
+}
+.five-pointed-star:before {
+ border-bottom: 0.8em solid var(--star-color);
+ border-left: 0.3em solid transparent;
+ border-right: 0.3em solid transparent;
+ position: absolute;
+ height: 0;
+ width: 0;
+ top: -0.45em;
+ left: -0.65em;
+ /* display: block; */
+ content:"";
+ transform: rotate(-35deg);
+ align-self: self-end;
+
+}
+.five-pointed-star:after {
+ position: absolute;
+ /* display: block; */
+ top: 0.03em;
+ left: -1.05em;
+ width: 0;
+ height: 0;
+ border-right: 1em solid transparent;
+ border-bottom: 0.7em solid var(--star-color);
+ border-left: 1em solid transparent;
+ transform: rotate(-70deg);
+ content:"";
+ align-self: self-end;
+
+}
+
+
+/* final price with red color */
+.lastPrice{
+  width: 70px;
+        height: 35px;
+        border: 1px solid orange;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: row;
+        font-weight: bold;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="firstRowContainer">
+      <div class="boxOne">
+        <div class="h3Parent"><h3>Most wished for in Books</h3></div>
+        <div class="imageParent">
+          <img
+            id="img1"
+            src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+            alt=""
+          />
+        </div>
+        <div class="h4Parent"><h4>Making It So: Amemoir</h4></div>
+        <div class="priceInformationParent">
+          <div class="priceParent">
+            <div id="moenyMark">$</div>
+            <div id="thirty">30</div>
+            <div id="double0">00</div>
+          </div>
+          <div class="listParent">
+            <p class="listWord">List: <span id="fourty">$40.00</span></p>
+          </div>
+        </div>
+        <div>
+          <div class="fourSmallBoxParent">
+            <div id="greenFirstSmallbox" class="smallestBox">
+              <img
+                class="imgInsideOfSmallestBox"
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="smallestBox">
+              <img
+                class="imgInsideOfSmallestBox"
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="smallestBox">
+              <img
+                class="imgInsideOfSmallestBox"
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="smallestBox">
+              <img
+                class="imgInsideOfSmallestBox"
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="boxTwo">
+        <div class="h3Parent"><h3>New: "Sitting In Bars With Cake"</h3></div>
+        <div class="secondImgParent">
+          <img
+            class="imgInSecondBox"
+            src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+            alt=""
+          />
+        </div>
+        <div class="buttonParent">
+          <button
+            id="buttonID"
+            href="https://www.amazon.ca/b/?_encoding=UTF8&ie=UTF8&node=23914625011&pd_rd_w=uM9cD&content-id=amzn1.sym.902e9947-5081-4e76-8570-79874803c3ee&pf_rd_p=902e9947-5081-4e76-8570-79874803c3ee&pf_rd_r=T5JN3FNTGNYG9QTX5BD2&pd_rd_wg=kCg7U&pd_rd_r=8a0c0f58-c53e-4d65-ae2a-4924620b35ee&ref_=pd_gw_unk"
+          >
+            Watch now on Prime
+          </button>
+        </div>
+      </div>
+     
+        <div class="boxThree">
+          <div class="h3Parent"><h3>Most wished for in Video Games</h3></div>
+          <div class="imageParent">
+            <img
+              id="img1"
+              src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+              alt=""
+            />
+          </div>
+          <div class="h4Parent"><h4>Super Mario Bros. TM Wonder-Nintendo Switch</h4></div>
+          <div class="priceInformationParent">
+            <div class="priceParent">
+              <div id="moenyMark">$</div>
+              <div id="thirty">79</div>
+              <div id="double0">96</div>
+            </div>
+          </div>
+          <div>
+            <div class="fourSmallBoxParent">
+              <div id="greenFirstSmallbox" class="smallestBox">
+                <img
+                  class="imgInsideOfSmallestBox"
+                  src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="smallestBox">
+                <img
+                  class="imgInsideOfSmallestBox"
+                  src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="smallestBox">
+                <img
+                  class="imgInsideOfSmallestBox"
+                  src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="smallestBox">
+                <img
+                  class="imgInsideOfSmallestBox"
+                  src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <div class="boxFour">
+        <div class="h3Parent"><h3>Baby Registry benefits</h3></div>
+        <div class="secondImgParent">
+          <img id="imgInSecondBoxchangeBigger"
+            class="imgInSecondBox"
+            src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+            alt=""
+          />
+        </div>
+        <div id="fixButtonID"  class="buttonParent">
+          <button
+            id="buttonID"
+            href="https://www.amazon.ca/b/?_encoding=UTF8&ie=UTF8&node=23914625011&pd_rd_w=uM9cD&content-id=amzn1.sym.902e9947-5081-4e76-8570-79874803c3ee&pf_rd_p=902e9947-5081-4e76-8570-79874803c3ee&pf_rd_r=T5JN3FNTGNYG9QTX5BD2&pd_rd_wg=kCg7U&pd_rd_r=8a0c0f58-c53e-4d65-ae2a-4924620b35ee&ref_=pd_gw_unk"
+          >
+            Explore now
+          </button>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="secondRowContainer">
+      <div class="box1">
+        <h3 id="bestSellers">Best Sellers in Sports & Outdoors</h3><br>
+        <div class="fiveSmallPicParent">
+              <img class="fiveSmallPic"
+                
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+              <img class="fiveSmallPic"
+                
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+              <img class="fiveSmallPic"
+                
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+              <img class="fiveSmallPic"
+                
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+              <img class="fiveSmallPic"
+                
+                src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg"
+                alt=""
+              />
+          
+        </div>
+        
+      </div>
+      <div class="box2">
+        <img class="lastImage" src="https://m.media-amazon.com/images/I/71EnzPvuZ+L._SL1500_.jpg" alt="">
+        <h4 id="withoutMargin">Military Ballistic Nylon Watch Strap, Soft Watch Bands for Men Women, Seat Belt Watch Wrap...</h4>
+        <div class="anotherPrice">
+          <div class="starParent">
+            <div class="five-pointed-star"></div>
+            <div class="five-pointed-star"></div>
+            <div class="five-pointed-star"></div>
+            <div class="five-pointed-star"></div>
+            <div class="five-pointed-star"></div>
+            
+          </div>
+          
+          173</div>
+          <div class="lastPrice">
+            <div id="moenyMark">$</div>
+            <div id="thirty">17</div>
+            <div id="double0">99</div>
+          </div>
+        
+    
+       
+      </div>
+    </div>
+  </body>
+</html>
